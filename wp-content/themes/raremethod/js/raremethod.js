@@ -66,3 +66,9 @@ function bodyClass(left, right){
 // 	$('section').hide();
 // 	$(section).show();
 // }
+
+$(document).ready(function(){
+	$('#flexo-archives-2 > ul > li > a').click(function(){
+		$(this).toggleClass('expanded');
+	});
+});

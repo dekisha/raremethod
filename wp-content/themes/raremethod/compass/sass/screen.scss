@@ -136,19 +136,23 @@ textarea{
 }
 #searchform{
 	float: right;
+	position: relative;
 	div{
 		@include clearfix();
 	}
 }
 #s{
-	float: left;
+	float: right;
 	width: 100%;
-	max-width: 163px;
-    min-width: 154px;
+	max-width: 160px;
+    // min-width: 154px;
+    padding-right: 35px;
 }
 #searchsubmit{
 	background: url(../img/sprites/icon-search.png) no-repeat right top;
-	float: left;
+	// float: left;
+	position: absolute;
+	right: 0;
 	height: 30px;
     padding: 0;
     text-indent: -9999px;
