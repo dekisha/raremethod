@@ -470,7 +470,7 @@ function my_jquery_enqueue() {
 }
 //setting default length of excerpt
 function custom_excerpt_length( $length ) {
-	return 60;
+	return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 //adding class to excerpt

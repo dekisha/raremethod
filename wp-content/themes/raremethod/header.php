@@ -20,11 +20,12 @@
 <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bootstrap/css/bootstrap.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bootstrap/css/bootstrap-responsive.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/compass/css/screen.css" type="text/css" media="screen" />
 
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
@@ -33,13 +34,14 @@
 <![endif]-->
 <?php wp_head(); ?>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/raremethod.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/bootstrap/js/bootstrap.js"></script>
 </head>
 
 <body class="bg-dots-left" <?php body_class(); ?>>
 	<div id="right-body" class="bg-dots-right">
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
-		<div class="left">
+<div id="page" class="hfeed site container-fluid">
+	<header id="masthead" class="site-header row-fluid" role="banner">
+		<div class="left span9">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<!-- <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
 			<address>
@@ -57,7 +59,7 @@
 				</div>
 			</address>
 		</div>
-		<div class="right">
+		<div class="right span3">
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<!-- <h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3> -->
 				<!-- <a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a> -->
@@ -71,4 +73,4 @@
 		</div>
 	</header><!-- #masthead -->
 
-	<div id="main" class="wrapper">
+	<div id="main" class="wrapper row-fluid">

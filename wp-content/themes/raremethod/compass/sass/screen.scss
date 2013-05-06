@@ -49,6 +49,7 @@ h3 a{
 	font-size: 26px;
 	text-transform:uppercase;
 	text-decoration: none;
+	line-height: 1.1em;
 	color: $gray-font-darker;
 }
 h4,
@@ -83,8 +84,8 @@ li{
 	line-height: 1.3em;
 }
 .site-content{
-	float: left;
-	width: 75.4%;
+	// float: left;
+	// width: 75.4%;
 }
 address{
 	padding-top: 15px;
@@ -149,9 +150,7 @@ textarea{
     padding-right: 35px;
 }
 
-body{
-	background: green;
-}
+
 #searchsubmit{
 	background: url(../img/sprites/icon-search.png) no-repeat right top;
 	// float: left;
@@ -213,7 +212,8 @@ body{
 	z-index: 1;
 }
 .block .count{
-	top: 150px;
+	top: auto;
+	bottom: 10px;
 }
 .title-header{
 	@include clearfix();
@@ -273,10 +273,17 @@ body{
 	@include clearfix();
 }
 .block{
-	float: left;
-	width: 230px;
-	margin-right:15px;
+	// float: left;
+	// width: 230px;
+	// height: 320px;
+	// margin-right:15px;
+	// position: relative;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.img-wrapper{
 	position: relative;
+	margin-bottom: 15px;
 }
 .block-wide{
 	border-bottom: 1px solid $gray-stripe-darker;
@@ -334,7 +341,7 @@ body{
 }
 #page{
 	margin: 0 auto;
-	max-width: 980px;
+	max-width: 960px;
 	// width: 71.65%;
 	// border: 1px solid #000;
 	background-color: #fff;
@@ -342,7 +349,7 @@ body{
 	-moz-box-shadow: 6px 0 4px -4px #222, -6px 0 4px -4px #222; 
 	-webkit-box-shadow: 6px 0 4px -4px #222, -6px 0 4px -4px #222;
     height: 100%;
-    padding: 0 50px 0; 
+    padding: 0 60px; 
     overflow: hidden;
 }
 #section2{
@@ -356,13 +363,13 @@ body{
 	// height: 160px;
 	background: url(../img/custom/underline-header.png) no-repeat left bottom;
 	@include clearfix();
-	.left{
-		width: 75%;
-	}
-	.right{
-		width: 24%;
-		@include clearfix();
-	}
+	// .left{
+	// 	width: 75%;
+	// }
+	// .right{
+	// 	width: 24%;
+	// 	@include clearfix();
+	// }
 }
 .address{
 	line-height: 20px;
@@ -376,10 +383,17 @@ body{
 
 // Content
 #main{
-	padding: 35px 5px 0;
+	padding-top: 35px;
 	@include clearfix();	
 }
-
+#content{
+	> h4{
+		padding: 0;
+		margin: 0;
+		border: 0;
+		margin-bottom: 20px;
+	}
+}
 // FEATURED POSTS
 .featured-posts{
 	img{
@@ -393,9 +407,8 @@ div#featured_slider{
 // MAIN POSTS
 .block{
 	img{
-		margin-bottom: 15px;
-		width: 230px;
-		height: 185px;
+		width: 100%;
+		height: auto;
 	}
 	.addthis_toolbox{
 		display: none;
@@ -472,9 +485,9 @@ div#featured_slider{
 		float: none;
 	}
 }
-.post.last{
-	margin: 0;
-}
+// .post.last{
+// 	margin: 0;
+// }
 .headline{
 	@include clearfix();
 	h4{
@@ -534,4 +547,4 @@ div#featured_slider{
 		float: right;
 	}
 }
-@import "mediaquerries.scss";
+// @import "mediaquerries.scss";

@@ -14,15 +14,18 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content">
+	<div id="primary" class="site-content span9">
 		<div id="content" role="main">
+				<h4>featured posts</h4>
 				<?php include (ABSPATH . '/wp-content/plugins/wp-featured-content-slider/content-slider.php'); ?>
 				<ul class="posts">
 					<?php $posts = get_posts('orderby=rand&numberposts=3'); 
 					foreach($posts as $post) : setup_postdata($post);?>
-					<li class="post block">
+					<li class="post block span4">
+						<div class="img-wrapper">
 						<?php the_post_thumbnail( $size, $attr ); ?> 
 						<div class="count"><?php echo do_shortcode('[post_view]'); ?></div>
+						</div>
 						<h3 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
 						<div class="sub-text date"><?php echo get_the_date(); ?></div> 
 						<?php the_excerpt(); ?>
@@ -31,7 +34,7 @@ get_header(); ?>
 					<?php endforeach; ?>
 				</ul>
 			    <div class="latest-posts">
-			    	<h3>latest posts</h3>
+			    	<h4>latest posts</h4>
 				    <?php $the_query = new WP_Query( 'showposts=3' ); ?>
 				    <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 				    	<div class="block-wide">
