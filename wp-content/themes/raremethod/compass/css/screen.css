@@ -604,7 +604,12 @@ textarea {
   padding-right: 35px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003152}}
+body {
+  background: green;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003155}}
 #searchsubmit {
   background: url(../img/sprites/icon-search.png) no-repeat right top;
   position: absolute;
@@ -616,7 +621,7 @@ textarea {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003166}}
 #search {
   width: 100%;
   float: right;
@@ -624,17 +629,17 @@ textarea {
   height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003176}}
 .left {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003179}}
 .right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003182}}
 .office {
   text-transform: uppercase;
   color: #ec1847;
@@ -642,13 +647,13 @@ textarea {
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003188}}
 .pfa {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003192}}
 .select {
   width: 165px;
   height: 30px;
@@ -657,13 +662,13 @@ textarea {
   right: 35px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003199}}
 .tag {
   color: #d00101;
   font-size: 16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003203}}
 .count {
   background: url(../img/sprites/icon-comment-count.png) no-repeat;
   width: 30px;
@@ -677,7 +682,7 @@ textarea {
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003215}}
 .block .count {
   top: 150px;
 }
@@ -691,47 +696,47 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003221}}
 .post-title {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003224}}
 .post-by {
   font-size: 13px;
   float: right;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003229}}
 .author {
   color: #d00101;
   font-size: 13px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003233}}
 .post-description {
   margin-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003236}}
 .post-continue {
   font-size: 13px;
   color: #d00101;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003240}}
 .post-continue:before {
   content: "(";
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003244}}
 .post-continue:after {
   content: ")";
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003249}}
 .sub-text {
   text-transform: uppercase;
   color: #949494;
@@ -739,7 +744,7 @@ textarea {
   margin-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003256}}
 .block-wide-content {
   float: left;
   padding-left: 20px;
@@ -750,7 +755,7 @@ textarea {
   bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003265}}
 .posts {
   list-style: none;
   margin: 0;
@@ -765,7 +770,7 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003271}}
 .featured-posts {
   margin-bottom: 20px;
 }
@@ -778,7 +783,7 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003275}}
 .block {
   float: left;
   width: 230px;
@@ -786,7 +791,7 @@ textarea {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003281}}
 .block-wide {
   border-bottom: 1px solid #e5e5e5;
   outline-bottom: 1px solid #eeeeee;
@@ -804,7 +809,7 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003290}}
 .category-head {
   padding: 20px 35px;
   position: relative;
@@ -818,7 +823,7 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003295}}
 .category-post {
   border-top: 1px solid #eeeeee;
   padding: 35px;
@@ -833,7 +838,7 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003301}}
 .category-wide-content {
   position: absolute;
   top: 35px;
@@ -842,20 +847,20 @@ textarea {
   bottom: 35px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003308}}
 .writter {
   width: 158px;
   height: 390px;
   float: left;
   background: url(../img/custom/ribbon.png) no-repeat center bottom;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003314}}
 .writter img {
   border: 3px solid white;
   box-shadow: 0 0 6px -1px #000000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003319}}
 .info-about-writter {
   height: 220px;
   margin: 0 auto;
@@ -871,19 +876,19 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003327}}
 .random-posts {
   margin-left: 200px;
   padding-bottom: 30px;
   background: url(../img/sprites/stripe-double-gray.png) no-repeat bottom center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003332}}
 #right-body {
   min-height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003335}}
 #page {
   margin: 0 auto;
   max-width: 980px;
@@ -896,13 +901,13 @@ textarea {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003348}}
 #section2 {
   border: 1px solid #e5e5e5;
   background-color: #f9f9f9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003354}}
 .site-header {
   padding-top: 20px;
   background: url(../img/custom/underline-header.png) no-repeat left bottom;
@@ -915,11 +920,11 @@ textarea {
   clear: both;
   content: '';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003359}}
 .site-header .left {
   width: 75%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003362}}
 .site-header .right {
   width: 24%;
 }
@@ -932,7 +937,7 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003367}}
 .address {
   line-height: 20px;
 }
@@ -944,13 +949,13 @@ textarea {
   clear: both;
   content: '';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003370}}
 .address span {
   float: left;
   margin-right: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003378}}
 #main {
   padding: 35px 5px 0;
 }
@@ -963,63 +968,63 @@ textarea {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003385}}
 .featured-posts img {
   width: 100%;
   image-rendering: -moz-crisp-edges;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003390}}
 div#featured_slider {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003395}}
 .block img {
   margin-bottom: 15px;
   width: 230px;
   height: 185px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003400}}
 .block .addthis_toolbox {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003405}}
 .addthis_button_pinterest_pinit,
 .addthis_counter {
   display: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003410}}
 .block-wide img {
   float: left;
   height: 185px;
   width: 230px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003416}}
 .addthis_toolbox {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003421}}
 .category-post img {
   float: left;
   margin-right: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003425}}
 .category-post h3 {
   margin-top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003428}}
 .category-post .post-continue {
   position: absolute;
   right: 5px;
   bottom: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003435}}
 .info-about-writter div {
   background: url(../img/sprites/border-dotted-white.png) no-repeat center bottom;
   color: #fff;
@@ -1028,14 +1033,14 @@ div#featured_slider {
   font-size: 12px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003444}}
 .info-about-writter .category a {
   display: inline-block;
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003451}}
 .info-about-writter .social-icons-white {
   background: none;
   margin: 0 auto;
@@ -1058,7 +1063,7 @@ div#featured_slider {
   background-position: 0 -274px;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003456}}
 .info-about-writter .social-icons-white a {
   float: left;
   text-align: left;
@@ -1069,16 +1074,16 @@ div#featured_slider {
   margin-right: 7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003464}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003468}}
 .post h4 {
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003471}}
 .post .post-title {
   float: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003475}}
 .post.last {
   margin: 0;
 }
@@ -1091,16 +1096,16 @@ div#featured_slider {
   clear: both;
   content: '';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003480}}
 .headline h4 {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003483}}
 .headline input[type="submit"] {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003487}}
 .comment {
   background: #f9f9f9;
   padding: 20px;
@@ -1108,27 +1113,27 @@ div#featured_slider {
   margin: 20px 0;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003493}}
 .comment .author-img {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003492}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003496}}
 .comment .author-name {
   float: left;
   margin-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003496}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003500}}
 .comment .sub-text {
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003499}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003503}}
 .comment input[type="button"] {
   position: absolute;
   left: 0;
   bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003509}}
 #commentform {
   border: 1px solid #e5e5e5;
   background: #f9f9f9;
@@ -1143,14 +1148,14 @@ div#featured_slider {
   clear: both;
   content: '';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003513}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003517}}
 #commentform .comment-form-author,
 #commentform .comment-form-email,
 #commentform .comment-form-url {
   float: left;
   width: 33.3%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003516}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003520}}
 #commentform .comment-form-author label,
 #commentform .comment-form-email label,
 #commentform .comment-form-url label {
@@ -1158,18 +1163,18 @@ div#featured_slider {
   height: 30px;
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003525}}
 #commentform .comment-form-author input,
 #commentform .comment-form-email input,
 #commentform .comment-form-url input {
   float: left;
   max-width: 120px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003526}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003530}}
 #commentform p.last {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/raremethod\/wp-content\/themes\/raremethod\/compass\/sass\/screen\.scss}line{font-family:\00003533}}
 #commentform input[type="submit"] {
   float: right;
 }
