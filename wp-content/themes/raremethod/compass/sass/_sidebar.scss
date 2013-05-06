@@ -1,0 +1,120 @@
+// SIDEBAR
+.widget-area{
+	float: right;
+	width: 21%;
+	.addthis_toolbox{
+		display: none;
+	}
+}
+.the-social-link{
+	margin-bottom: 50px;
+	li{
+		float: left;
+		list-style-type: none;
+		text-align: left;
+		text-indent: -9999px;
+		width: 28px;
+		height: 28px;
+		text-transform: uppercase;
+		margin-right: 7px;
+		margin-bottom: 10px;
+	}
+	.last{
+		margin: 0;
+	}
+	@include social-icons();
+}
+.authors-headline {
+    margin-bottom: 20px;
+}
+.author-info{
+    padding: 10px 0;
+	border-bottom: 1px solid $gray-stripe-darker;
+	@include clearfix();	
+	img{
+		width: 85px;
+		height: 85px;
+	}
+	.author-img{
+		float: left;
+		margin-right: 5px;
+	}
+	.name a{
+		text-transform: uppercase;
+		font-size: 15px;
+		margin-bottom: 5px;
+		font-weight: bold;
+		display: block;
+		line-height: 15px;
+	}
+} 
+.author-wrapper{
+	float: left;
+	margin-top: 2px;
+	width: 113px;
+}
+.job-title{
+	text-transform: capitalize;
+	font-size: 11px;
+}
+.view-last-post{
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 14px;
+	color: $red-font-content;
+	background: url(../img/custom/icon-view-more.png) no-repeat right center;
+	padding-right: 20px;
+}
+.widget_categories{
+	margin: 40px 0;
+	h3{
+		font-size: 12px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	ul{
+		margin: 0;
+			li{
+				margin: 0;
+				list-style: none;
+				font-size: 12px;
+				text-align: right;
+				display: block;
+				margin-bottom: 10px;
+				color: $gray-font;
+				a{
+					font-size: 12px;
+					color: #000;
+					float: left;
+
+				}
+			}
+		
+	}
+}
+.FlexoArchives_widget_archives{
+	margin: 40px 0;
+	h3{
+		font-size: 12px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	ul{
+		margin: 0;
+			li{
+				margin: 0;
+				list-style: none;
+				font-size: 12px;
+				text-align: left;
+				display: block;
+				margin: 10px 0;
+				color: $gray-font;
+				a{
+					font-size: 12px;
+					color: #000;
+
+				}
+			}
+		
+	}
+}

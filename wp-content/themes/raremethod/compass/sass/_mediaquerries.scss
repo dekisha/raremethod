@@ -1,0 +1,52 @@
+@media screen and (max-width: 960px) {
+	header{
+		padding-bottom: 20px;
+	}
+	header .left{
+		width: 100%;
+	}
+	header .right{
+		width: 100%;
+		margin-top: 10px;
+	}
+	h1{
+		text-align: center;
+	}
+	#address{
+		text-align: center;
+	}
+	.address{
+		display: inline-table;
+	}
+	nav{
+		float: left;
+		width: 60%;
+		ul li{
+		float: left;
+		width: 46%;
+		}
+	}
+	#search-bar{
+		width: 30%;
+	}
+	.author-wrapper{
+		width: auto;
+	}
+	.author-img{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 880px){
+	#content section{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.author-img{
+		display: block;
+	}
+}

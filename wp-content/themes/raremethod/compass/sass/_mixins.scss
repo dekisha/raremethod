@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+// Clearfix
+@mixin clearfix{
+	&:after{
+		visibility: hidden;
+		height: 0;
+		display: block;
+		clear: both;
+		content: '';		
+	}
+}
+
+@mixin clearingtext{
+	text-align: left;
+	text-indent: -9999px;
+}
+
+@mixin social-icons{
+	@include clearfix();
+	.facebook{
+		@include sprites-sprite(icon-facebook);
+	}
+	.linkedin{
+		@include sprites-sprite(icon-linkedin);
+	}
+	.flickr{
+		@include sprites-sprite(icon-flickr);
+	}
+	.pinterest{
+		@include sprites-sprite(icon-pinterest);
+	}
+	.rss{
+		@include sprites-sprite(icon-rss);
+	}
+	.twitter{
+		@include sprites-sprite(icon-twitter);
+	}
+}
+
+
+@mixin social-icons-white{
+	@include clearfix();
+	.twitter{
+		@include sprites-sprite(icon-twitter-white);
+	}
+	.linkedin{
+		@include sprites-sprite(icon-linkedin-white);
+		margin: 0;
+	}
+}
+
+// @mixin icons-sprite($name, $offset-x: 0, $offset-y: 0)
+// Colors
+$red-font-header: #ec1847;
+$red-font-content: #d00101;
+$gray-stripe: #eee;
+$gray-stripe-darker: #e5e5e5;
+$gray-font-darker: #313739;
+$gray-font: #949494;
+$gray-bg: #f9f9f9;
