@@ -35,27 +35,27 @@ $(function(){
 	});
 
 
-	$('<input>').attr({
-		    type: 'button',
-		    id: 'content-toggle',
-		    name: 'content-toggle',
-		    value: 'CONTENT',
-		}).prependTo('body').css({'position':'absolute', 'left': '100px'});
+	// $('<input>').attr({
+	// 	    type: 'button',
+	// 	    id: 'content-toggle',
+	// 	    name: 'content-toggle',
+	// 	    value: 'CONTENT',
+	// 	}).prependTo('body').css({'position':'absolute', 'left': '100px'});
 
-	$('#section2, #section3').hide();
-	$('#content-toggle').one('click',function(event){
-		content('#section2');
+	// $('#section2, #section3').hide();
+	// $('#content-toggle').one('click',function(event){
+	// 	content('#section2');
 
-		$(this).one('click',function(event){
-			content('#section3');
+	// 	$(this).one('click',function(event){
+	// 		content('#section3');
 
-		});
+	// 	});
 
-	});
+	// });
 
-	$('ul li:last-child').each(function(){
-		$(this).addClass('last');
-	});
+	// $('ul li:last-child').each(function(){
+	// 	$(this).addClass('last');
+	// });
 
 });
 function bodyClass(left, right){
@@ -67,8 +67,30 @@ function bodyClass(left, right){
 // 	$(section).show();
 // }
 
-$(document).ready(function(){
+
+function archivesTogle(){
 	$('#flexo-archives-2 > ul > li > a').click(function(){
 		$(this).toggleClass('expanded');
 	});
+}
+function addingNumbersToNav(){
+	$('#nav li').each(function(e){
+		number = e + 1;
+		$('<div>' + number + '</div>').prependTo(this);
+	});
+}
+function calculatingContentMargin(){
+
+}
+
+$(document).ready(function(){
+	archivesTogle();
+	addingNumbersToNav();
+
+});
+
+$(window).on('resize ready', function(){
+	height = $('#masthead').height();
+	console.log(height);
+	$('#main').css({'margin-top': height});
 });

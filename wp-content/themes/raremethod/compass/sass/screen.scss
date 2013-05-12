@@ -24,7 +24,7 @@ html{
 body{
 	height: 100%;
 	font-size: 100%;
-	font-family: Open Sans;	
+	font-family: Arial;	
 	background-repeat: repeat-y;
 	color: $gray-font-darker;
 }
@@ -177,6 +177,7 @@ textarea{
 }
 .right{
 	float: right;
+	@include clearfix();
 }
 .office{
 	text-transform: uppercase;
@@ -232,6 +233,7 @@ textarea{
 }
 .post-description{
 	margin-bottom: 15px;
+	margin-top: 10px;
 }
 .post-continue{
 	font-size: 13px;
@@ -250,7 +252,7 @@ textarea{
 	text-transform: uppercase;
 	color: $gray-font;
 	font-size: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .block-wide-content{
@@ -359,17 +361,18 @@ textarea{
 // Custom
 // Header
 .site-header{
-	padding-top: 20px;
-	// height: 160px;
-	background: url(../img/custom/underline-header.png) no-repeat left bottom;
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 11;
 	@include clearfix();
-	// .left{
-	// 	width: 75%;
-	// }
-	// .right{
-	// 	width: 24%;
-	// 	@include clearfix();
-	// }
+}
+.header-wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: #fff url(../img/custom/underline-header.png) no-repeat left bottom;
 }
 .address{
 	line-height: 20px;
@@ -384,6 +387,7 @@ textarea{
 // Content
 #main{
 	padding-top: 35px;
+	margin-top: 170px;
 	@include clearfix();	
 }
 #content{
